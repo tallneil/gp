@@ -10,11 +10,8 @@ After using plain text formatting for a while, I wanted a way to call out dates,
 To save the .sublime-syntax file, go to Tools > Developer > New Syntax and copy/paste in the file I've provided. Save it in the default location. Now, when you open/reopen any .txt file, you'll see GP in the language list. 
 
 ### References
-[https://www.sublimetext.com/docs/syntax.html#include-syntax] 
-(Sublime Text new syntax definitions)
+[Sublime Text new syntax definitions](https://www.sublimetext.com/docs/syntax.html#include-syntax)
 
-[https://macromates.com/manual/en/language_grammars#naming_conventions]
-(TextMate naming conventions)
+[TextMate scope/name conventions](https://macromates.com/manual/en/language_grammars#naming_conventions)
 
-[https://stackoverflow.com/questions/49781644/custom-syntax-in-sublime-text-3]
-(Useful instructions on StackOverflow)
+[Useful instructions on StackOverflow](https://stackoverflow.com/questions/49781644/custom-syntax-in-sublime-text-3)
