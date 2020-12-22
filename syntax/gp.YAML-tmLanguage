@@ -1,0 +1,29 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: GP
+scopeName: text.txt
+fileTypes: []
+uuid: b64be9fd-b3f5-429e-9b16-813d314f0f2e
+
+patterns:
+- comment: example: * assignment due tomorrow
+  name: string.modifier.txt
+  match: \*.+
+
+- comment: example: S A T U R D A Y   0 6 / 0 4
+  name: storage.modifier.txt
+  match: (M O N |T U E S |W E D N E S |T H U R S |F R I |S A T U R |S U N )D A Y.+
+
+- comment: example: A T   A   G L A N C E
+  name: storage.modifier.txt
+  match: A T   A   G L A N C E
+
+- comment: example: 12:30
+  name: keyword.time1.txt
+  match: ([0-9]| )([0-9]):([0-9])([0-9]).+
+
+- comment: example: 7 PM
+  name: keyword.time2.txt
+  match: ([0-9]| )([0-9]) (AM|PM)
+
+...
